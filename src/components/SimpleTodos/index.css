@@ -1,0 +1,133 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.simple-todos-container1 {
+  display: flex;
+  font-size: 45;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  border-radius: 16px;
+  width: 90%;
+  padding: 24px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .simple-todos-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
+.simple-todos-container2 {
+  display: flex;
+  font-size: 12;
+
+  flex-direction: column;
+  align-items: left;
+  background-color: black;
+  border-radius: 16px;
+  width: 90%;
+  padding: 24px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .simple-todos-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
+
+.heading1 {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+}
+.heading2 {
+  color: #fff;
+  font-family: 'Roboto';
+  text-align: 'left';
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+.heading3 {
+  color: #fff;
+  font-family: 'Roboto';
+  text-align: 'left';
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  padding: 2px;
+}
+
+.todos-list {
+  padding-left: 0px;
+}
+.card-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cards {
+  background-color: grey;
+  width: 210px;
+  border-radius: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 28px;
+  padding-left: 28px;
+  margin-bottom: 24px;
+  font-family: 'Open Sans';
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 8px;
+}
+.para1 {
+  color: 202020;
+
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+.para2 {
+  color: AFAFAF;
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+
+.ordered-lower-number-list {
+  color: white;
+  list-style-type: lower-number;
+  text-align: left;
+  padding: 2px;
+}
+.card1 {
+  background-color: C620A7;
+  text-align: left;
+}
