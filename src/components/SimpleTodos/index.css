@@ -97,26 +97,137 @@
 }
 .cards {
   background-color: grey;
-  width: 210px;
+  width: 240px;
+  border: 1px solid #ccc;
   border-radius: 12px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 28px;
-  padding-left: 28px;
-  margin-bottom: 24px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 0cem;
   font-family: 'Open Sans';
   margin-left: 12px;
   margin-right: 12px;
   font-size: 8px;
+  transition: 0.3s;
+  border: 1px solid black;
 }
+
 .para1 {
-  color: 202020;
+  color: white;
+  text-align: center;
+  background-color: purple;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  width: 140px;
+}
+.para2 {
+  color: white;
+  text-align: center;
+  background-color: purple;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  width: 140px;
+}
+.para3 {
+  color: white;
+  text-align: center;
+  background-color: purple;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  width: 140px;
+}
+.para4 {
+  color: white;
+  text-align: center;
+
+  font-family: 'Open Sans';
+  font-size: 12px;
+  width: 140px;
+}
+.para5 {
+  color: white;
+  text-align: center;
+  background-color: purple;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  width: 140px;
+}
+.para6 {
+  color: white;
+  text-align: center;
+  background-color: purple;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  width: 140px;
+}
+.para7 {
+  color: white;
+  text-align: center;
+  background-color: purple;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  width: 140px;
+}
+.para8 {
+  color: white;
+  text-align: center;
+
+  font-family: 'Open Sans';
+  font-size: 12px;
+  width: 140px;
+}
+.para9 {
+  color: white;
+  text-align: center;
+  background-color: purple;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  width: 140px;
+}
+.delete1 {
+  color: AFAFAF;
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+.delete2 {
+  color: AFAFAF;
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+.delete3 {
+  color: purple;
 
   font-family: 'Open Sans';
   font-size: 12px;
 }
-.para2 {
+.delete4 {
   color: AFAFAF;
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+.delete5 {
+  color: AFAFAF;
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+.delete6 {
+  color: AFAFAF;
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+.delete7 {
+  color: AFAFAF;
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+.delete8 {
+  color: AFAFAF;
+  font-family: 'Open Sans';
+  font-size: 12px;
+}
+.delete9 {
+  color: purple;
   font-family: 'Open Sans';
   font-size: 12px;
 }
@@ -130,4 +241,15 @@
 .card1 {
   background-color: C620A7;
   text-align: left;
+}
+
+.length1 {
+  width: 490px;
+}
+.length2 {
+  width: 90px;
+  height: 25px;
+  color: white;
+  background-color: purple;
+  font-size: 14px;
 }
