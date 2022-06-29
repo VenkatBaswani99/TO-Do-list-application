@@ -97,6 +97,7 @@ class SimpleTodos extends Component {
                 <div className="cards">
                   <h1 className="">Task 1</h1>
                   <hr />
+
                   <p className="para6">Mark as completed</p>
                   <p className="delete6">Delete</p>
                 </div>
